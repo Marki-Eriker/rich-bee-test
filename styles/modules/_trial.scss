@@ -1,0 +1,51 @@
+.trial {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  &__card {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 793px;
+    min-width: 375px;
+    width: 100%;
+    padding: 35px 22px;
+
+    &:before {
+      z-index: -1;
+      position: absolute;
+      top: -12px;
+      left: -38px;
+      height: 61px;
+      width: 61px;
+      content: '';
+      background: url('/img/rings/ring-cyan.svg');
+    }
+  }
+
+  &__content {
+
+  }
+
+  &__description {
+    font-size: 11px;
+  }
+
+  &__button {
+    height: 41px;
+    width: 156px;
+  }
+
+  @media (max-width: 600px) {
+    &__card {
+      flex-direction: column;
+    }
+
+    &__button {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+}

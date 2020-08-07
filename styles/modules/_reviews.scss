@@ -1,0 +1,86 @@
+.reviews {
+  background: url('/img/users/user-1.png') left 5% top 1%,
+              url('/img/users/user-2.png') left 12% top 30%,
+              url('/img/users/user-3.png') left 0 bottom 20%,
+              url('/img/users/user-5.png') right 12% top 20%,
+              url('/img/users/user-6.png') right 5% bottom 35%,
+              url('/img/users/user-7.png') right 0;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+
+  &__title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__slider {
+    width: 580px;
+    margin: 0 auto;
+    display: flex;
+
+    .slick-dots {
+      transform: translateY(-40px);
+    }
+  }
+
+  &__user {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__user-name {
+    margin-bottom: 17px;
+  }
+
+  &__quotes {
+    background: url('/quotes.svg') no-repeat;
+    width: 27px;
+    height: 17px;
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    margin-bottom: 17px;
+  }
+
+  &__sign {
+    margin: 0 auto;
+  }
+
+  &__card {
+    margin: 40px;
+    position: relative;
+    max-width: 500px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 25px 28px 25px;
+    text-align: center;
+
+    &:before {
+      z-index: -1;
+      position: absolute;
+      right: -8px;
+      bottom: -24px;
+      content: '';
+      height: 44px;
+      width: 47px;
+      background: url('/img/dots/dots-cyan.svg');
+    }
+  }
+
+  @media (max-width: 600px) {
+
+    &__card {
+      max-width: 220px;
+    }
+
+    &__slider {
+      width: 300px;
+    }
+  }
+}
+

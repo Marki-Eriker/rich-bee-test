@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./fonts/gilroy/gilroy-bold.eot');
+  src: url('./fonts/gilroy/gilroy-bold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/gilroy/gilroy-bold.woff2') format('woff2'),
+  url('./fonts/gilroy/gilroy-bold.woff') format('woff'),
+  url('./fonts/gilroy/gilroy-bold.ttf') format('truetype'),
+  url('./fonts/gilroy/gilroy-bold.svg#gilroy-bold') format('svg');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('./fonts/gilroy/gilroy-semibold.eot');
+  src: url('./fonts/gilroy/gilroy-semibold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/gilroy/gilroy-semibold.woff2') format('woff2'),
+  url('./fonts/gilroy/gilroy-semibold.woff') format('woff'),
+  url('./fonts/gilroy/gilroy-semibold.ttf') format('truetype'),
+  url('./fonts/gilroy/gilroy-semibold.svg#gilroy-semibold') format('svg');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('./fonts/gilroy/gilroy-medium.eot');
+  src: url('./fonts/gilroy/gilroy-medium.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/gilroy/gilroy-medium.woff2') format('woff2'),
+  url('./fonts/gilroy/gilroy-medium.woff') format('woff'),
+  url('./fonts/gilroy/gilroy-medium.ttf') format('truetype'),
+  url('./fonts/gilroy/gilroy-medium.svg#gilroy-medium') format('svg');
+  font-weight: 500;
+}
